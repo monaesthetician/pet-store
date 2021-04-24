@@ -1,0 +1,110 @@
+body {
+    
+    font-family: 'Bangers', cursive;
+  
+}
+
+#title {
+  background-color: indianred;
+}
+/* header */
+h1 {
+    text-align: center;
+    font-size:100px;
+    font-family: 'Bangers', cursive;
+    color: #2978b5;
+    margin: 25px 20px;
+    background-color: #f5cebe;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(177, 204, 27);
+
+}
+
+.dancing-dog {
+    border-radius: 50%;
+    width: 10%; 
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    z-index: 1;
+    
+}
+
+/*  site border photo */
+div.gallery {
+  margin: 40px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  color: #000;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* OUr products and services */
+
+
+
+/* 
+#carouselExampleInterval {
+  width: 250px;
+  height: 180px;
+}
+
+
+
+ */
+
+
+/* Nav bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 2px solid #e7e7e7;
+    background-color: #325288;
+    border-radius: 10px;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: larger;
+    background-color: #fff;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #114e60;
+  }
+  /* End of nav bar */
