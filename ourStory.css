@@ -1,0 +1,45 @@
+
+.catName {
+    border-radius: 50%;
+}
+.our-stroy {
+    font-size: 16px;
+}
+
+
+
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    margin-top: 150px;
+    text-align: center;
+    
+}
+    
+.catNme, .girlWdog, .olivia {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: solid 2px;
+    
+}
+
+
+/* footer */
+.visa, .apple-pay, .discover, .paypal, .mastercard {
+    width:50px;
+    height: 30px;
+    margin: 5px;
+  }
+
+
+   

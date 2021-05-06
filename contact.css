@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(27, 59, 26);
+}
+
+p {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    margin-top: 150px;
+    text-align: center;
+    
+}
+
+svg.bi.bi-house-fill {
+    position: relative;
+    bottom: 500px;
+}
+
+.text, .email, .text-input {
+     border: 1px solid blue;
+     color: blue;
+}
+
+.phone-fill{
+    position:relative;
+    
+}

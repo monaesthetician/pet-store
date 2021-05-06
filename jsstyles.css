@@ -1,0 +1,25 @@
+body {
+    background-color: burlywood;
+}
+#market img{
+    width: 60%;
+   
+    
+}
+#market{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bg-dark{
+    background-color: black;
+    border: 3px solid white;
+}
+
+.monaLisa {
+    border-radius: 10%;
+    border: solid #87a7b3 3px;
+    
+
+}
+
