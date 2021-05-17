@@ -1,10 +1,39 @@
+
 body {
     background-color: burlywood;
+    margin-top: 0px;
+    align-items: right;
+    font-family:  Montserrat Alternates, Inconsolata, monospace;;
 }
+
+#jumbotron {
+    background-color: #a0937d;
+    text-align: center;
+    color: rgb(14, 145, 145);
+   
+}
+
+h1 {
+    font-weight: 500;
+   
+}
+.home {
+    margin-top: 10px;
+}
+.logo {
+    position: relative;
+    animation: logo 6s infinite;
+}
+
+@keyframes logo {
+    0%   {top: 0px;}
+    5%   {right: 300px;}
+    105% {left: 500px;} 
+    100% {left: 200px;}
+  }
 #market img{
     width: 60%;
    
-    
 }
 #market{
     display: flex;

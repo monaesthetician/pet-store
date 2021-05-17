@@ -1,12 +1,12 @@
-
+html, body {
+    font-family: Montserrat Alternates, Inconsolata, monospace;
+}
 .catName {
     border-radius: 50%;
 }
 .our-stroy {
     font-size: 16px;
 }
-
-
 
 .bg-text {
     background-color: rgb(0,0,0); /* Fallback color */
@@ -35,6 +35,9 @@
 
 
 /* footer */
+footer {
+    margin-top: 10rem;
+}
 .visa, .apple-pay, .discover, .paypal, .mastercard {
     width:50px;
     height: 30px;

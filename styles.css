@@ -1,7 +1,7 @@
 body, html {
   height: 100%;
   margin: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat Alternates, Inconsolata, monospace;
 }
 h1 {
   background: #eee;
@@ -12,8 +12,26 @@ h1 {
   margin-right:auto;
   
 }
+
+.facebook, .instagram, .pinterest {
+  margin: 10px 30px;
+ 
+}
+
+p.bodyText{
+  font-size: 20px;
+  color: rgb(14, 145, 145);
+  letter-spacing: 1.5px;
+  line-height: 1.8;
+}
+
+footer p{
+  color: #393e46;
+  
+}
+
 .navbar {
-  font-size: 25px;
+  font-size: 20px;
 }
 * {
   box-sizing: border-box;
@@ -21,8 +39,9 @@ h1 {
 .dog-graphic {
   position: absolute;
   z-index: 1;
-  right:10px;
-  bottom: 1px;
+  left:100px;
+  bottom: 45px;
+  transform: rotate(335deg);
 }
 .bg-image {
   /* The image used */
@@ -60,99 +79,79 @@ h1 {
 }
 @media screen and (max-width: 952px){
   .bg-text{
-      width: 80%;
+      width: 50%;
   }
 }
 /* body content */
 .natural-food-container {
   margin-top: 35px;
 }
+
 .natural-food {
 
   border-radius: 10%;
   border: 10px solid #f1f1f1;
-  margin-left: 25px;
+  margin-left: 15px;
   float: left;
-
-}
-
-.natural-food-text  {
-  font-size: 25px;
-  margin-right: 2rem;
-  margin-top: 50px;
-}
-
-.toy-container {
-  margin-top: 50px;
-  margin-top: 5rem;
-}
-
-.toys {
   
+}
+
+.toy-container  {
+  margin-top: 5rem;
+ 
+}
+
+ .toys {
   border-radius: 10%;
   border: 10px solid #f1f1f1;
   margin-left: 25px;
   float: right;
 
-}
-.toy-text {
-  font-size: 25px;
-  margin-left: 25px;
+} 
 
-}
-
-.clothes-container {
-   margin-top: 5rem;
+ .clothes-container  { 
+  margin-top: 5rem;
 }
 
 .dog-clothes-pic {
 
   border-radius: 10%;
   border: 10px solid #f1f1f1;
-  margin-left: 25px;
+  margin-left: 15px;
   float: left;
 }
 
-.clothes-text {
-  font-size: 25px;
-  margin-right: 2rem;
-  margin-top: 50px;
-   
-}
-
-
-
-
 /* footer */
-
+.d-flex {
+  margin-top: 20px;
+}
  .why-us-container {
+  align-items: center;
   background-color: burlywood; 
   margin-left: 0;
-  margin-top: 10rem;
-  display: flexbox;
-  align-items: center;
+  margin-top: 1rem;
 }
 
-.why-us-text {
-  text-align: center;
-  margin-top: 20px;
- 
-} 
-
- .easy-return, .free-shipping, .secure-payment, .nature-friendly {
-  margin: 30px 35px;
-}  
-
+#pay{
+  justify-content:left;
+  position: relative;
+  top: 55px; 
+}
+#pay2{
+  justify-content: flex-end;
+  top: 60px;
+}
 .visa, .apple-pay, .discover, .paypal, .mastercard {
-  width:50px;
+  width: 50px;
   height: 30px;
   margin: 5px;
 }
 
 .rc, .portland, .pet-spa, .african-tail, .natural-doggie{
-  width:50px;
+  width: 50px;
   height: 30px;
   margin: 5px;
   
   
 }
+

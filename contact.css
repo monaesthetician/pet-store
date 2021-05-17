@@ -1,5 +1,5 @@
-body {
-    background-color: rgb(27, 59, 26);
+body { 
+     background-color: rgb(27, 59, 26); 
 }
 
 p {
@@ -10,7 +10,7 @@ p {
 .bg-text {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    color: white;
+    color: #fff;
     font-weight: bold;
     border: 3px solid #f1f1f1;
     top: 60%;
@@ -24,6 +24,10 @@ p {
     
 }
 
+.social {
+    justify-content: center;
+    margin-top: 250px;
+}
 svg.bi.bi-house-fill {
     position: relative;
     bottom: 500px;
@@ -35,6 +39,6 @@ svg.bi.bi-house-fill {
 }
 
 .phone-fill{
-    position:relative;
+    position: relative;
     
 }

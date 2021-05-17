@@ -63,21 +63,37 @@ var shop = [
     {
       title: 'Doggy bandana',
       image: './prdImg/blueCollar.png',
-      price: '35',
+      price: '15',
       description: '100% natural material'
      },
      {
       title: 'Tie',
       image: './prdImg/sailorTie.png',
-      price: '25',
+      price: '15',
       description: '100% natural material'
      },
      {
       title: 'White bandana',
       image: './prdImg/white-collar.jpg',
-      price: '35',
+      price: '15',
       description: '100% natural material'
      },
+     {
+      title: 'Sweater',
+      image: './product-images/sweater.jpg',
+      price: '39',
+      description: '100% natural material'
+     }, 
+     {
+      title: 'Mutt neck-turtle',
+      image: './product-images/lifewithlove.png',
+      price: '29',
+      description: '100% natural material'
+     },
+
+
+
+
   
     
     ]

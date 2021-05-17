@@ -1,21 +1,25 @@
 body, html {
   margin: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat Alternates, Inconsolata, monospace;
 
 }
 * {
   box-sizing: border-box;
 }
-h1, p {
-  text-align: center;
-  font-weight: 200;
-  color:aqua
+h1  {
+  font-weight: 250;
+  color:rgb(14, 145, 145);
+  margin: 50px 500px;
+  
+  
+  
 }
+
 p {
   width: 100%;
-  max-width: 500px;
-  margin: right;
+  
 }
+
 a:link,
 a:hover,
 a:active,
@@ -31,17 +35,21 @@ a:hover {
 .contain {
   width: 100%;
 }
+
 .row {
   overflow: scroll;
   width: 100%;
 }
-.row__inner {
+
+ .row__inner {
   transition: 450ms transform;
   font-size: 0;
   white-space: nowrap;
-  margin: 70.3125px 0;
-  padding-bottom: 10px;
+  margin: 55px 0;
+  margin-bottom: 0;
+  
 }
+
 .tile {
   position: relative;
   display: inline-block;
@@ -53,11 +61,13 @@ a:hover {
   transition: 450ms all;
   transform-origin: center left;
 }
+
 .tile__img {
   width: 250px;
   height: 140.625px;
   object-fit: cover;
 }
+
 .tile__details {
   position: absolute;
   bottom: 0;
@@ -89,7 +99,8 @@ a:hover {
   background: rgba(0,0,0,0.5);
   z-index: 1;
 }
-.tile__details:before {
+
+.tile__details:before { 
   content: '';
   left: 0;
   width: 100%;
@@ -113,7 +124,7 @@ a:hover {
 .wrap {
     border: 1px solid #fff;
     margin-left: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 10px;
     word-wrap: break-word; 
     width: 150px;
     
