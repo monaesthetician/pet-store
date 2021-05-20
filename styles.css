@@ -1,8 +1,11 @@
+
 body, html {
   height: 100%;
   margin: 10px;
   font-family: Montserrat Alternates, Inconsolata, monospace;
 }
+
+
 h1 {
   background: #eee;
   color: #393e46;
@@ -17,6 +20,36 @@ h1 {
   margin: 10px 30px;
  
 }
+
+@media only screen and (max-width: 768px) {
+  #bg-text-header{
+    transform: scale(.6); 
+    position: relative;
+    right: 123px; 
+
+  }
+}
+
+  /* @media only screen and(max-width: 374px) {
+  #dog-logo{
+    transform: scale(.5); 
+    /* position: relative; */
+    /* right: 120px; 
+   
+
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  img#text-logo {
+    transform: scale(.5); 
+    position: relative;
+     
+    
+
+  }
+}   */ 
+
 
 p.bodyText{
   font-size: 20px;
@@ -77,11 +110,9 @@ footer p{
   padding: 20px;
   text-align: center;
 }
-@media screen and (max-width: 952px){
-  .bg-text{
-      width: 50%;
-  }
-}
+
+
+
 /* body content */
 .natural-food-container {
   margin-top: 35px;
@@ -154,4 +185,26 @@ footer p{
   
   
 }
+/* @media screen and (max-width: 952px){
+  .bg-text{
+      width: 50%;
+  }
+} */
 
+ /* @media screen and (max-width: 1000px) {
+  div.bg-text{
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  img.dog-graphic{
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    left: 40px;
+
+  }
+
+}
+    */

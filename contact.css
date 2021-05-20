@@ -24,9 +24,11 @@ p {
     
 }
 
-.social {
-    justify-content: center;
-    margin-top: 250px;
+img {
+    position: relative;
+    left: 500px;
+
+    
 }
 svg.bi.bi-house-fill {
     position: relative;
