@@ -36,7 +36,7 @@ html, body {
 
 /* footer */
 footer {
-    margin-top: 10rem;
+    margin-top: 12rem;
 }
 .visa, .apple-pay, .discover, .paypal, .mastercard {
     width:50px;
